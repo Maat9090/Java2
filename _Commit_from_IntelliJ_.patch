@@ -1,0 +1,46 @@
+Index: src/main/java/Calculator.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Calculator.java b/src/main/java/Calculator.java
+--- a/src/main/java/Calculator.java	(revision bf1d0f879164b9a5973aa580cb32c787e8396685)
++++ b/src/main/java/Calculator.java	(date 1649325770792)
+@@ -1,7 +1,8 @@
+ public class Calculator {
+ 
++    //Now, correcting the method
+     public int add(int a,int b){
+-      return a-b;
++        return a + b;
+     }
+ 
+ 
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1649324181056)
++++ b/.idea/vcs.xml	(date 1649324181056)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/target/classes/Calculator.class b/target/classes/Calculator.class
+index b63a23ef1bf4f0f7d246121a276d54644e0301cf..83e9063e193351f6a7be55a1687f1f62f15684bb
+GIT binary patch
+literal 452
+zc$|$;%Syvg5IvJ;jnUNl*yuuctqb!3J{A^)K+uKKwUY;WOH3e5{3<uD1Q&jQA0^IB
+z1BK$k3wO@UnR^a1_xtDb3&14~JQy%tSUzkxgyEcDIV`w*3h$D6o;C#MLY1nyBADaJ
+z%*BA<O}R+hf}5%)Sko%Y2|=vN{I-2b^7?_3LYPrprCiLoR=Vy<t9e!nf*-Fe&c&It
+zj9`zWXc7^K<!Vd_gGHM(HS0ON`>L(e{6=Y?V5L9PBjW_FY@&||(z{69kSY`;LHqOr
+z^e%}3PomS2giVS5@`2!1$896%#n<|C1g*oP$G0`D-D!`P{a&lHA$GdHg^^^2<hy_Q
+OW$S+4zy0<)<^C_MH9gA!
+
