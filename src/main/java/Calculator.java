@@ -1,7 +1,8 @@
 public class Calculator {
 
+    //Now, correcting the method
     public int add(int a,int b){
-      return a-b;
+        return a + b;
     }
 
 
